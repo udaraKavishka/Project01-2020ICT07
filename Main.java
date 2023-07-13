@@ -7,9 +7,9 @@ public class Main{
 		Book bk5 = new Book("The Hobbit", "B005", "J.R.R.Tolkien", 320);
 		
 		/* bk1.checkOut();
-			bk1.displayItemDetails();
-        bk1.checkIn();
-			bk1.displayItemDetails(); */
+		
+        bk1.checkIn(); */
+			
 		
 		System.out.println();
 		

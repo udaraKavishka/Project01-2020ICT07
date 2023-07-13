@@ -7,9 +7,11 @@ public class LibraryMember{
 		this.name=name;
 	}
 	
-	public String displayMemberDetails(){
-		return "\nMemberID: "+ memberID +
-		"\nName: "+ name;
+	public void displayMemberDetails(){
+		System.out.println("MemberID: "+ memberID );
+		System.out.println("Name: "+ name);
+		System.out.println();
+		
 	}
 	
 }

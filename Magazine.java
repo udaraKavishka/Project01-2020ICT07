@@ -8,10 +8,11 @@ public class Magazine extends LibraryItem{
 		this.publisher=publisher;
 	}
 	
-	public String displayItemDetails(){
-        return super.displayItemDetails() +
-		"\nIssue Date: " + issueDate + 
-		"\nPublisher: " + publisher;
+	public void displayItemDetails(){
+		System.out.println();
+        super.displayItemDetails();
+		System.out.println("Issue Date: " + issueDate); 
+		System.out.println("Publisher: " + publisher);
     }
 	
 	
