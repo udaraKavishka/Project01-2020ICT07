@@ -46,7 +46,6 @@ Books:
 | 1984 | B003   | George Orwell   | 328 |
 | Pride and Prejudice | B004   | Jane Austen   |432 |
 | The Hobbit | B005   | J.R.R. Tolkien   | 320 |
-| Seconds | 301   | 283   |:---: |
 
 Magazines:
 Title	|Item ID |	Issue Date |	Publisher|
