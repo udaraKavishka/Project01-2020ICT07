@@ -1,13 +1,13 @@
 abstract class LibraryItem{
 	protected String title;
-	protected String itemId;
+	protected String itemID;
 	protected boolean checked;
 	
 	LibraryItem(String title,
-				String itemId){
+				String itemID){
 					
 		this.title = title;
-		this.itemId = itemId;
+		this.itemID = itemID;
 		this.checked=checked;
 	}
 	
@@ -16,7 +16,7 @@ abstract class LibraryItem{
 	}
 	
 	public String getItemId() {
-		return itemId;
+		return itemID;
 	}
 	
 	public boolean getCheckOut(){
