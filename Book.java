@@ -9,19 +9,11 @@ Public class Book extends LibraryItem{
 	}
 	
 	
-	public String checkOut() {
-		return author;
-	}
 	
-	public String checkIn() {
-		return author;
-	}
-	
-	public void displayItemDetails(){
-		System.out.println("Item ID : " + getItemId() + 
-		"\n" + "Title : " + getTitle() +
-		"\n" + "Author : " + author +
-		"\n" + "Number of pages : " + numPages);
+	public String displayItemDetails(){
+        return super.displayItemDetails() + "\nAuthor: " +
+		author + "\nNumber of Pages: " + numPages;
+
 	}
 	
 }
