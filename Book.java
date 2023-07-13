@@ -10,9 +10,11 @@ public class Book extends LibraryItem{
 	
 	
 	
-	public String displayItemDetails(){
-        return super.displayItemDetails() + "\nAuthor: " +
-		author + "\nNumber of Pages: " + numPages;
+	public void displayItemDetails(){
+		super.displayItemDetails();
+        System.out.println("Author:"+ author);
+        System.out.println("No of Pages:"+ numPages);
+		System.out.println();
 
 	}
 	
