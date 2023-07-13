@@ -1,4 +1,4 @@
-Public class Book extends LibraryItem{
+public class Book extends LibraryItem{
 	private String author;
 	private int numPages;
 	
