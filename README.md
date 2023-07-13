@@ -69,7 +69,7 @@ Library Members:
 
 # Output
 ```
-{
+
 D:\Uni\Level 01\1.2\IT1214 OOP\Project 01- 2020ICT07\Project01-2020ICT07>javac Main.java
 
 D:\Uni\Level 01\1.2\IT1214 OOP\Project 01- 2020ICT07\Project01-2020ICT07>java Main
@@ -146,5 +146,5 @@ Name: Michael Brown
 
 
 D:\Uni\Level 01\1.2\IT1214 OOP\Project 01- 2020ICT07\Project01-2020ICT07>
-}
+
 ```
