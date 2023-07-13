@@ -3,41 +3,24 @@ abstract class LibraryItem{
 	protected String itemID;
 	protected boolean checked;
 	
-	LibraryItem(String title,
-				String itemID){
-					
+	LibraryItem(String title,String itemID){
 		this.title = title;
 		this.itemID = itemID;
 		this.checked=checked;
 	}
 	
-	public String getTitle() {
-		return title;
+	public void checkOut(){
+		checked=true;
 	}
 	
-	public String getItemId() {
-		return itemID;
+	public void checkIn(){
+		checked=false;
 	}
 	
-	public boolean getCheckOut(){
-		return checked;
-	}
 	
-	public void checkOut(boolean checked) {
-        this.checked = true;
-    }
-	
-	public boolean getCheckIn(){
-		return checked;
-	}
-
-    public void checkIn(boolean checked) {
-        this.checked = false;
-    }
-	
-	
-	public String displayItemDetails() {
-       return "\nTitle: " + title + "\nItem ID: " + itemID;
+	public void displayItemDetails() {
+       System.out.println("Title: " + title );
+	   System.out.println("Item ID: " + itemID); 
     }
 	
 }
