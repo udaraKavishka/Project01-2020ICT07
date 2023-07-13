@@ -67,4 +67,84 @@ Library Members:
 |L004|	Sarah Williams|
 |L005	|Michael Brown|
 
+# Output
+```
+{
+D:\Uni\Level 01\1.2\IT1214 OOP\Project 01- 2020ICT07\Project01-2020ICT07>javac Main.java
 
+D:\Uni\Level 01\1.2\IT1214 OOP\Project 01- 2020ICT07\Project01-2020ICT07>java Main
+
+Books:
+Title: The Catcher in the Rye
+Item ID: B001
+Author:J.D.Salinger
+No of Pages:240
+
+Title: To Kill a Mockingbird
+Item ID: B002
+Author:Harper Lee
+No of Pages:281
+
+Title: 1984
+Item ID: B003
+Author:George Orwell
+No of Pages:328
+
+Title: Pride and Prejudice
+Item ID: B004
+Author:Jane Austen
+No of Pages:432
+
+Title: The Hobbit
+Item ID: B005
+Author:J.R.R.Tolkien
+No of Pages:320
+
+
+Magazines:
+
+Title: National Geographic
+Item ID: M001
+Issue Date: August 2023
+Publisher: National Geographic Society
+
+Title: Time
+Item ID: M002
+Issue Date: September 2023
+Publisher: Time USA, LLC
+
+Title: Forbes
+Item ID: M003
+Issue Date: June 2023
+Publisher: Forbes Media
+
+Title: Vogue
+Item ID: M004
+Issue Date: July 2023
+Publisher: Cond?? Nast
+
+Title: Sports Illustrated
+Item ID: M005
+Issue Date: July 2023
+Publisher: Maven Coalition
+
+Library Members:
+MemberID: L001
+Name: John Doe
+
+MemberID: L002
+Name: Jane Smith
+
+MemberID: L003
+Name: David Johnson
+
+MemberID: L004
+Name: Sarah Williams
+
+MemberID: L005
+Name: Michael Brown
+
+
+D:\Uni\Level 01\1.2\IT1214 OOP\Project 01- 2020ICT07\Project01-2020ICT07>
+}
+```
